@@ -7,15 +7,16 @@ btn.addEventListener('click',
         console.log(umano);  
         let computer = Math.floor(Math.random() * 6) + 1;
         console.log(computer);
+    
 
         if (umano > computer) {
             document.getElementById("risposta").innerHTML = ("HAI VINTO");
         }   else if (computer > umano) {
             document.getElementById("risposta").innerHTML = ("HAI PERSO");
-        }   else 
+        }   else { 
             document.getElementById("risposta").innerHTML = ("PAREGGIO");
-
-        
+        }
+   
     }
 
 );
